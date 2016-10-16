@@ -17,6 +17,7 @@ public class DocumentBenchmarking {
 
 	    // Run each test more than once to get bigger numbers and less noise.
 	    // You can try playing around with this number.
+		
 	    int trials = 100;
 
 	    // The text to test on
