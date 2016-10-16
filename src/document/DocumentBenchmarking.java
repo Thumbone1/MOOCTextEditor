@@ -64,6 +64,7 @@ public class DocumentBenchmarking {
 			// 4. Print out the time it took to complete the loop in step 3 
 			//      (on the same line as the first print statement) followed by a tab (\t)
 			System.out.print(t1-t0 + "\t");
+			
 			// 5. Time a loop that runs trials times (trials is the variable above) that:
 			//     a. Creates an EfficientDocument 
 			//     b. Calls fleshScore on this document
@@ -73,6 +74,7 @@ public class DocumentBenchmarking {
 				doc.getFleschScore();
 			}
 			double t3 = System.nanoTime() / 1000000000.0;
+			
 			// 6. Print out the time it took to complete the loop in step 5 
 			//      (on the same line as the first print statement) followed by a newline (\n)
 			System.out.print(t3-t2 + "\n");
